@@ -165,7 +165,7 @@ p{
 }
 
 .powerful{
-  padding: 40px 0;
+  padding-top: 40px;
   text-align: center;
   background-color: rgb(244, 249, 253);
 }
@@ -193,13 +193,16 @@ p{
   background-color: rgb(244, 249, 253);
 }
 
-.features .container{
+.features .container:first-child{
   height: 500px;
   background-color: #fff;
   border-radius: 5px;
 }
 
-.features-fill, .features-three{
+.features-fill{
   width: 60%;
+  height: 100px;
+  margin: 0 auto;
+  background-color: red;
   border: 1px solid black;
 }
