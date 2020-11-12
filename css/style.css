@@ -45,6 +45,10 @@ a {
   border-radius: 5px;
   color: rgb(255, 255, 255);
 }
+
+p{
+  line-height: 30px;
+}
 /* fine Common settings */
 
 /* inizio header */
@@ -104,6 +108,8 @@ a {
   vertical-align: middle;
 }
 
+/* inizio main */
+
 .jumbotron{
   height: 600px;
   background-image: url(../img/jumbotron.png);
@@ -129,13 +135,12 @@ a {
   padding: 20px 0;
 }
 
-.jumbo-text a{
+.jumbo-text div .button{
   margin: 0;
 }
 
-.jumbo-text > div > span{
+.jumbo-text div span{
   display: block;
+  font-size: 12px;
   padding: 20px 0;
-
-
 }
