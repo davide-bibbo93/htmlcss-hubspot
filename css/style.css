@@ -171,7 +171,7 @@ p{
 }
 
 .powerful-fill{
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -194,15 +194,31 @@ p{
 }
 
 .features .container:first-child{
-  height: 500px;
   background-color: #fff;
   border-radius: 5px;
 }
 
 .features-fill{
-  width: 60%;
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.features-fill .fl-left{
+  width: 30%;
+}
+
+.features-fill .fl-right{
+  width: 90%;
+}
+
+.features-fill img{
   height: 100px;
   margin: 0 auto;
-  background-color: red;
-  border: 1px solid black;
+}
+.features-three .fl-left{
+  width: 30%;
+  height: 400px;
+  background-color: green;
+  border-radius: 5px;
 }
