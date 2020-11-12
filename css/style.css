@@ -4,3 +4,28 @@
   margin: 0;
   padding: 0;
 }
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+  width: 85%;
+  margin: 0 auto;
+}
+
+.fl-left{
+  float: left;
+}
+
+.fl-right{
+  float: right;
+}
+/* end Common settings */
+
+/* parte del header */
+.navbar-opzioni{
+  height: 60px;
+  background-color: rgb(244, 249, 253);
+  border-bottom: 2px solid black;
+}
