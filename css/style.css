@@ -103,3 +103,39 @@ a {
 .navbar-menu .fl-right ul{
   vertical-align: middle;
 }
+
+.jumbotron{
+  height: 600px;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.jumbotron .container{
+  height: 600px;
+}
+
+.jumbo-text{
+  width: 40%;
+  padding: 40px 0;
+}
+
+.jumbo-text h1{
+  font-size: 40px;
+}
+
+.jumbo-text p{
+  padding: 20px 0;
+}
+
+.jumbo-text a{
+  margin: 0;
+}
+
+.jumbo-text > div > span{
+  display: block;
+  padding: 20px 0;
+
+
+}
