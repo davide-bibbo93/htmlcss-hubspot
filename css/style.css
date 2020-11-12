@@ -31,6 +31,7 @@ a {
 .fl-right {
   float: right;
 }
+
 .list {
   padding-left: 0;
   list-style-type: none;
@@ -52,6 +53,7 @@ p{
 /* fine Common settings */
 
 /* inizio header */
+
 .header li {
   display: inline-block;
 }
@@ -78,6 +80,22 @@ p{
 .navbar-opzioni .fl-right {
   width: 50%;
   text-align: right;
+}
+
+.navbar-opzioni .fl-right ul{
+  height: 47px;
+}
+
+.navbar-opzioni .fl-right ul li{
+  text-align: center;
+}
+
+.navbar-opzioni .fl-right ul li img{
+  width: 40%;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 .login {
@@ -107,6 +125,7 @@ p{
 .navbar-menu .fl-right ul{
   vertical-align: middle;
 }
+
 
 /* inizio main */
 
@@ -151,8 +170,9 @@ p{
   background-color: rgb(244, 249, 253);
 }
 
-.powerful .container{
+.powerful-fill{
   width: 60%;
+  margin: 0 auto;
 }
 
 .powerful img{
@@ -165,4 +185,21 @@ p{
 
 .powerful p{
   padding: 20px 0;
+}
+
+.features{
+  padding: 20px 0;
+  text-align: center;
+  background-color: rgb(244, 249, 253);
+}
+
+.features .container{
+  height: 500px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.features-fill, .features-three{
+  width: 60%;
+  border: 1px solid black;
 }
