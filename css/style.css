@@ -144,3 +144,25 @@ p{
   font-size: 12px;
   padding: 20px 0;
 }
+
+.powerful{
+  padding: 40px 0;
+  text-align: center;
+  background-color: rgb(244, 249, 253);
+}
+
+.powerful .container{
+  width: 60%;
+}
+
+.powerful img{
+  height: 200px;
+}
+
+.powerful h2{
+  font-size: 30px;
+}
+
+.powerful p{
+  padding: 20px 0;
+}
