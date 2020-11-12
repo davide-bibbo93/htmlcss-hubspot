@@ -1,60 +1,86 @@
-/* Common Settings */
-*{
+/* general */
+* {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  border: 0px;
+}
+body {
+  font-family: font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: rgb(50, 72, 89);
 }
 
-body{
-  font-family: 'Open Sans', sans-serif;
+a {
+  display: inline-block;
+  padding: 0 15px;
+  color: rgb(50, 72, 89);
+  text-decoration: none;
 }
-
-.container{
+.container {
   width: 85%;
   margin: 0 auto;
 }
-
-.fl-left{
-  float: left;
-}
-
-.fl-right{
-  float: right;
-}
-
 .clearfix::after {
   content: '';
   display: table;
   clear: both;
 }
-
-a{
-  text-decoration: none;
+.fl-left {
+  float: left;
 }
-
-.list{
+.fl-right {
+  float: right;
+}
+.list {
   padding-left: 0;
   list-style-type: none;
-}
-/* end Common settings */
-
-/* parte del header */
-
-.header li{
-  display: inline;
+  font-size: 20px;
 }
 
-.navbar-opzioni{
+.button {
+  background-color: rgb(251, 119, 95);
+  margin: 0 15px;
+  padding: 10px;
+  border: 2px solid rgb(251, 119, 95);
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+}
+
+/* header */
+.header li {
+  display: inline-block;
+}
+
+.navbar-opzioni {
   padding: 30px 0;
+  border-bottom: 2px solid rgb(50, 72, 89);
   background-color: rgb(244, 249, 253);
-  border-bottom: 2px solid black;
 }
 
-.nav-opzioni .fl-left{
+.navbar-opzioni .fl-left {
   width: 50%;
+  height: 47px;
+  line-height: 47px;
 }
 
-.nav-opzioni .fl-right{
+.navbar-opzioni .fl-left ul {
+  vertical-align: middle;
+}
+
+.navbar-opzioni .fl-left li:first-child {
+  border-right: 2px solid rgb(50, 72, 89);
+}
+
+.navbar-opzioni .fl-right {
   width: 50%;
   text-align: right;
+}
+
+.navbar-opzioni .fl-right i:first-child {
+  color: rgb(26, 166, 188);
+}
+
+.login {
+  color: rgb(251, 119, 95);
+  background-color: rgb(255, 255, 255);
 }
