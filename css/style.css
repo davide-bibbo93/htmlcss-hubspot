@@ -344,3 +344,8 @@ p{
 .community .box h3 > span{
   font-size: 12px;
 }
+
+.customers{
+  text-align: center;
+  padding-top: 40px;
+}
