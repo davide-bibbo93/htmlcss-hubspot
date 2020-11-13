@@ -34,9 +34,8 @@ a {
 }
 
 .list {
-  padding-left: 0;
   list-style-type: none;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .button {
@@ -77,6 +76,7 @@ p{
 
 .navbar-opzioni .fl-left ul {
   vertical-align: middle;
+  padding-inline-start: 10px;
 }
 
 .navbar-opzioni .fl-left li:first-child {
@@ -262,9 +262,10 @@ p{
 }
 
 .features .three .fl-left{
-  width: 33%;
+  width: calc(33% - 80px);
   background-color: white;
   border-radius: 5px;
+  margin: 40px;
 }
 
 .features .three .fl-left .medio{
@@ -277,7 +278,7 @@ p{
 
 .features .three hr{
   display: inline-block;
-  width: 100%;
+  width: 80%;
   margin: 40px 0 20px 0;
   border: 1px solid gray;
 }
