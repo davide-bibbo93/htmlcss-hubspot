@@ -13,7 +13,7 @@ body {
 
 a {
   display: inline-block;
-  padding: 0 15px;
+  padding: 0 10px;
   color: rgb(50, 72, 89);
   text-decoration: none;
 }
@@ -71,12 +71,12 @@ p{
 .navbar-opzioni .fl-left {
   width: 50%;
   height: 47px;
-  line-height: 47px;
+  padding-top: 15px;
 }
 
 .navbar-opzioni .fl-left ul {
   vertical-align: middle;
-  padding-inline-start: 10px;
+  padding-inline-start: 0px;
 }
 
 .navbar-opzioni .fl-left li:first-child {
@@ -114,7 +114,7 @@ p{
 }
 
 .navbar-opzioni, .navbar-menu{
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .logo{
@@ -248,6 +248,7 @@ p{
 }
 
 .features .one ul{
+  padding-inline-start: 0px;
   margin-top: 20px;
   font-size: 14px;
 }
@@ -255,6 +256,11 @@ p{
 .features .one li{
   display: inline;
   padding-right: 20px;
+}
+
+.features .one i{
+  padding-right: 10px;
+  color: rgb(251, 119, 95);
 }
 
 .features .three .fill{
@@ -293,9 +299,15 @@ p{
   text-align: left;
 }
 
+.features .three i{
+  padding-right: 10px;
+  color: rgb(251, 119, 95);
+}
+
 .features .three .button{
   margin-top: 20px;
 }
+
 
 .community{
   background-image: linear-gradient(45deg, #00a4bd, #00bda5);
@@ -382,4 +394,8 @@ p{
 .customers .fl-right img{
   height: 15px;
   padding: 0 20px;
+}
+
+.grow{
+  padding: 40px 0;
 }
