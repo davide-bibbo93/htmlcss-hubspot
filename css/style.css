@@ -346,6 +346,40 @@ p{
 }
 
 .customers{
-  text-align: center;
   padding-top: 40px;
+}
+
+.customers .row{
+  padding-top: 20px;
+}
+
+.customers .row .box{
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.customers .container > .fl-left{
+  width: 40%;
+  padding: 0 100px;
+  text-align: center;
+}
+
+.customers .fl-left h2{
+  font-size: 36px;
+}
+
+.customers .fl-left span{
+  display: block;
+  padding-top: 20px;
+}
+
+.customers .fl-right{
+  width: 60%;
+}
+
+.customers .fl-right img{
+  height: 15px;
+  padding: 0 20px;
 }
