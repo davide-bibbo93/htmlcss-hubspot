@@ -439,8 +439,17 @@ p{
   color: white;
 }
 
+.footer .site{
+  padding-top: 40px;
+}
+
 .footer .fl-left{
   width: 25%;
+}
+
+.footer .fl-left ul{
+  margin-top: 20px;
+  padding-inline-start: 0px;
 }
 
 .footer .fl-left h5{
@@ -450,4 +459,18 @@ p{
 .footer .fl-left a{
   color: rgb(203, 215, 226);
   font-size: 12px;
+  padding: 0 0 10px 0;
+}
+
+.footer .fl-left .button{
+  margin: 5px 0;
+  padding: 10px;
+  border: 0;
+  background-color: rgb(203, 215, 226);
+  color: rgb(51, 73, 90);
+}
+
+.footer .fl-left i{
+  margin: 10px 20px 0 0;
+  color: rgb(203, 215, 226)
 }
