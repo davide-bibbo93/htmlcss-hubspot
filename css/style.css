@@ -399,3 +399,36 @@ p{
 .grow{
   padding: 40px 0;
 }
+
+.grow .fl-left{
+  width: 40%;
+}
+
+.grow .fl-left h2{
+  font-size: 32px;
+}
+
+.grow .fl-left p{
+  padding-top: 20px;
+}
+
+.grow .fl-left a{
+  margin: 20px 20px 20px 0;
+}
+
+.grow .fl-left span{
+  display: block;
+  font-size: 12px;
+}
+
+.grow .fl-right{
+  width: 50%;
+}
+
+.grow .fl-right .box{
+  margin-left: 280px;
+}
+
+.grow .fl-right img{
+  height: 300px;
+}
