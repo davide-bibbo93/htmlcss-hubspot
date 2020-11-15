@@ -491,10 +491,30 @@ p{
 }
 
 .credits{
-  margin-top: 40px;
+  padding: 30px 0;
 }
 
 .credits .container{
   font-size: 12px;
   color: rgb(203, 215, 226);
+}
+
+.credits .fl-left{
+  width: 50%;
+}
+
+.credits .fl-left img{
+  display: block;
+  height: 25px;
+}
+
+.credits .fl-right{
+  width: 50%;
+  text-align: right;
+}
+
+.credits .fl-right span a{
+  font-size: 12px;
+  color: rgb(203, 215, 226);
+  padding: 0 10px;
 }
