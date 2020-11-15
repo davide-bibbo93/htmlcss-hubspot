@@ -402,6 +402,7 @@ p{
 
 .grow .fl-left{
   width: 40%;
+  margin-top: 20px;
 }
 
 .grow .fl-left h2{
@@ -431,4 +432,22 @@ p{
 
 .grow .fl-right img{
   height: 300px;
+}
+
+.footer{
+  background-color: rgb(51, 73, 90);
+  color: white;
+}
+
+.footer .fl-left{
+  width: 25%;
+}
+
+.footer .fl-left h5{
+  font-size: 14px;
+}
+
+.footer .fl-left a{
+  color: rgb(203, 215, 226);
+  font-size: 12px;
 }
