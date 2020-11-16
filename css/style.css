@@ -29,6 +29,11 @@ body {
   float: right;
 }
 
+.col-33{
+  width: 33.3%;
+  float: left;
+}
+
 .list {
   list-style-type: none;
   font-size: 15px;
@@ -224,7 +229,7 @@ a {
   width: 60%;
 }
 
-.features .one img, .features .three img{
+.features .one img, .features .col-33 img{
   height: 100px;
   margin: 0 auto;
   display: block;
@@ -265,47 +270,47 @@ a {
   padding-right: 20px;
 }
 
-.features .one i, .features .three i {
+.features .one i, .features .col-33 i {
   padding-right: 10px;
   color: rgb(251, 119, 95);
 }
 
-.features .three .fill{
+.features .fill{
   padding: 9px;
 }
 
-.features .three .fl-left{
+.features .col-33{
   width: calc(33.3% - 80px);
   background-color: white;
   border-radius: 5px;
   margin: 40px;
 }
 
-.features .three .fl-left .medio{
+.features .col-33 .medio{
   margin: 0 5%;
 }
 
-.features .three h3, .features .three p{
+.features .col-33 h3, .features .col-33 p{
   padding: 10px 5px;
 }
 
-.features .three hr{
+.features .col-33 hr{
   display: inline-block;
   width: 90%;
   margin: 40px 0 20px 0;
   border: 1px solid gray;
 }
 
-.features .three h4 {
+.features .col-33 h4 {
   text-transform: uppercase;
 }
 
-.features .three ul{
+.features .col-33 ul{
   margin: 20px;
   text-align: left;
 }
 
-.features .three .button{
+.features .col-33 .button{
   margin-top: 20px;
 }
 
