@@ -70,6 +70,11 @@ a {
   content: "\f0d7";
   padding-left: 10px;
 }
+
+.shadow{
+  box-shadow: 1px 1px 10px #ccc;
+  border-radius: 10px;
+}
 /* fine Common settings */
 
 /* inizio header */
