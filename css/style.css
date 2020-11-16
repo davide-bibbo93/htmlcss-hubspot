@@ -14,14 +14,17 @@ body {
   width: 85%;
   margin: 0 auto;
 }
+
 .clearfix::after {
   content: '';
   display: table;
   clear: both;
 }
+
 .fl-left {
   float: left;
 }
+
 .fl-right {
   float: right;
 }
@@ -30,6 +33,7 @@ body {
   list-style-type: none;
   font-size: 15px;
   padding-inline-start: 0px;
+  vertical-align: middle;
 }
 
 .button {
@@ -37,7 +41,7 @@ body {
   padding: 10px;
   border: 2px solid rgb(251, 119, 95);
   border-radius: 5px;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 p{
@@ -78,10 +82,6 @@ a {
   width: 50%;
   height: 47px;
   padding-top: 15px;
-}
-
-.navbar-opzioni .fl-left ul {
-  vertical-align: middle;
 }
 
 .navbar-opzioni .fl-left li:first-child {
@@ -138,11 +138,6 @@ a {
   line-height: 47px;
 }
 
-.navbar-menu .fl-right ul{
-  vertical-align: middle;
-}
-
-
 /* inizio main */
 
 .jumbotron{
@@ -178,8 +173,7 @@ a {
   font-size: 40px;
 }
 
-.jumbo-text p{
-  font-size: 14px;
+.jumbo-text p, .powerful p{
   padding: 20px 0;
 }
 
@@ -205,10 +199,6 @@ a {
 
 .powerful h2{
   font-size: 30px;
-}
-
-.powerful p{
-  padding: 20px 0;
 }
 
 .features{
@@ -248,7 +238,7 @@ a {
   text-align: left;
 }
 
-.features .one p{
+.features .one p, .community p, .grow .fl-left p{
   padding-top: 20px;
 }
 
@@ -268,7 +258,6 @@ a {
 
 .features .one ul{
   margin-top: 20px;
-  font-size: 14px;
 }
 
 .features .one li{
@@ -276,7 +265,7 @@ a {
   padding-right: 20px;
 }
 
-.features .one i{
+.features .one i, .features .three i {
   padding-right: 10px;
   color: rgb(251, 119, 95);
 }
@@ -313,17 +302,11 @@ a {
 
 .features .three ul{
   margin: 20px;
-  font-size: 14px;
   text-align: left;
 }
 
-.features .three i{
-  padding-right: 10px;
-  color: rgb(251, 119, 95);
-}
-
 .features .three .button{
-  margin: 20px;
+  margin-top: 20px;
 }
 
 .community{
@@ -331,10 +314,6 @@ a {
   padding: 40px 0;
   text-align: center;
   color: white;
-}
-
-.community p{
-  margin-top: 20px;
 }
 
 .community .grid{
@@ -425,10 +404,6 @@ a {
 
 .grow .fl-left h2{
   font-size: 32px;
-}
-
-.grow .fl-left p{
-  padding-top: 20px;
 }
 
 .grow .fl-left a{
