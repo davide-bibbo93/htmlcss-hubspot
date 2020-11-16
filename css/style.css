@@ -178,7 +178,7 @@ a {
   font-size: 40px;
 }
 
-.jumbo-text p, .powerful p{
+.jumbo-text p{
   padding: 20px 0;
 }
 
@@ -206,6 +206,12 @@ a {
   font-size: 30px;
 }
 
+.powerful p{
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
 .features{
   padding: 20px 0;
   background-color: rgb(244, 249, 253);
@@ -226,7 +232,7 @@ a {
 }
 
 .features .one > .fl-right{
-  width: 60%;
+  width: 70%;
 }
 
 .features .one img, .features .col-33 img{
