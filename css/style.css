@@ -244,7 +244,7 @@ a {
   padding: 40px 0;
 }
 
-.features .one img, .features .col-33 img{
+.features .one img, .features .col-30 img{
   height: 100px;
   margin: 0 auto;
   display: block;
@@ -282,39 +282,47 @@ a {
   padding-right: 20px;
 }
 
-.features .one i, .features .col-33 i {
+.features .one i, .features .col-30 i {
   padding-right: 10px;
   color: rgb(251, 119, 95);
 }
 
-.features .col-33{
-  width: calc(33.3% - 80px);
+.features .container:nth-child(2){
+  margin: 40px auto;
+}
+
+.features .col-30{
   background-color: white;
   border-radius: 5px;
-  margin: 40px;
 }
 
-.features .col-33 .fill{
+.features .col-30:nth-child(2){
+  margin: 0 5%;
+}
+
+.features .col-30 .fill{
   padding: 9px;
+  width: 90%;
+  margin: 0 auto;
 }
 
-.features .col-33 h3, .features .col-33 p{
+.features .col-30 h3, .features .col-30 p{
   padding: 10px 5px;
 }
 
-.features .col-33 hr{
+.features .col-30 hr{
   display: inline-block;
   width: 90%;
   margin: 40px 0 20px 0;
   border: 1px solid gray;
 }
 
-.features .col-33 ul{
+.features .col-30 ul{
   margin: 20px;
   text-align: left;
 }
 
-.features .col-33 .button{
+.features .col-30 .button{
   margin-top: 20px;
 }
 
@@ -362,12 +370,8 @@ a {
   padding-top: 20px;
 }
 
-.customers .fl-right .row-uno .box{
-  padding-right: 45px;
-}
-
-.customers .fl-right .row-due .box{
-  padding: 0 38px;
+.customers .fl-right .row-uno .box, .customers .fl-right .row-due .box{
+  padding-right: 60px;
 }
 
 .customers .row .box{
@@ -391,11 +395,13 @@ a {
 }
 
 .customers .fl-right .row-uno .box img{
-  height: 18px;
+  width: 100px;
+  height: auto;
 }
 
 .customers .fl-right .row-due .box img{
-  height: 20px;
+  width: 100px;
+  height: auto;
 }
 
 .grow{
