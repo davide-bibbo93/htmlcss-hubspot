@@ -75,6 +75,14 @@ a {
   box-shadow: 1px 1px 10px #ccc;
   border-radius: 10px;
 }
+
+.bord-top{
+  border-top: 1px solid white;
+}
+
+.bord-right{
+  border-right: 1px solid white;
+}
 /* fine Common settings */
 
 /* inizio header */
@@ -142,7 +150,7 @@ a {
 }
 
 .navbar-menu .fl-right{
-  width: 60%;
+  width: 70%;
   height: 47px;
   text-align: right;
   line-height: 47px;
@@ -267,7 +275,7 @@ a {
 
 .features .one hr{
   display: inline-block;
-  width: 60%;
+  width: 50%;
   margin: 7px 0;
   border: 1px solid gray;
 }
@@ -333,26 +341,13 @@ a {
 }
 
 .community .grid{
-  margin-top: 20px;
-}
-
-.community .row{
-  border-bottom: 1px solid white;
-}
-
-.community .row .box:last-child{
-  border-right: 0px;
-}
-
-.community .row:nth-child(2){
-  border-bottom: 0px;
+  margin: 20px 0 40px 0;
 }
 
 .community .box{
   width: 25%;
   display: inline-block;
   padding: 10px 30px;
-  border-right: 1px solid white;
 }
 
 .community .box img{
