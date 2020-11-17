@@ -69,6 +69,10 @@ body {
   color: white;
 }
 
+h4{
+  text-transform: uppercase;
+}
+
 p{
   font-size: 15px;
   line-height: 30px;
@@ -84,6 +88,11 @@ a {
   color: rgb(50, 72, 89);
   text-decoration: none;
   padding-right: 10px;
+}
+
+.footer a{
+  color: rgb(203, 215, 226);
+  font-size: 12px;
 }
 
 .fa-caret-down:before{
@@ -252,7 +261,6 @@ a {
 .features .one h4{
   display: inline-block;
   padding-top: 20px;
-  text-transform: uppercase;
 }
 
 .features .one p, .community p, .grow .fl-left p{
@@ -299,10 +307,6 @@ a {
   width: 90%;
   margin: 40px 0 20px 0;
   border: 1px solid gray;
-}
-
-.features .col-33 h4 {
-  text-transform: uppercase;
 }
 
 .features .col-33 ul{
@@ -445,8 +449,6 @@ a {
 }
 
 .footer .fl-left a{
-  color: rgb(203, 215, 226);
-  font-size: 12px;
   padding: 0 0 10px 0;
 }
 
@@ -473,18 +475,11 @@ a {
 }
 
 .lingue .container span a{
-  color: rgb(203, 215, 226);
-  font-size: 12px;
-  margin: 10px 10px;
+  padding: 10px 10px;
 }
 
 .credits{
   padding: 30px 0;
-}
-
-.credits .container{
-  font-size: 12px;
-  color: rgb(203, 215, 226);
 }
 
 .credits .fl-left img{
@@ -497,7 +492,5 @@ a {
 }
 
 .credits .fl-right span a{
-  font-size: 12px;
-  color: rgb(203, 215, 226);
   padding: 0 10px;
 }
