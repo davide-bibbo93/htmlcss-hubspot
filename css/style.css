@@ -29,6 +29,26 @@ body {
   float: right;
 }
 
+.col-30{
+  width: 30%;
+}
+
+.col-40{
+  width: 40%;
+}
+
+.col-50{
+  width: 50%;
+}
+
+.col-60{
+  width: 60%;
+}
+
+.col-70{
+  width: 70%;
+}
+
 .col-33{
   width: 33.3%;
   float: left;
@@ -97,7 +117,6 @@ a {
 }
 
 .navbar-opzioni .fl-left {
-  width: 50%;
   height: 47px;
   padding-top: 15px;
 }
@@ -107,24 +126,7 @@ a {
 }
 
 .navbar-opzioni .fl-right {
-  width: 50%;
   text-align: right;
-}
-
-.navbar-opzioni .fl-right ul{
-  height: 47px;
-}
-
-.navbar-opzioni .fl-right ul li{
-  text-align: center;
-}
-
-.navbar-opzioni .fl-right ul li img{
-  width: 40%;
-  height: 20px;
-  line-height: 20px;
-  margin-right: 10px;
-  vertical-align: middle;
 }
 
 .login {
@@ -145,12 +147,7 @@ a {
   height: 45px;
 }
 
-.navbar-menu .fl-left{
-  width: 30%;
-}
-
 .navbar-menu .fl-right{
-  width: 70%;
   height: 47px;
   text-align: right;
   line-height: 47px;
@@ -183,7 +180,6 @@ a {
 }
 
 .jumbo-text{
-  width: 50%;
   padding: 40px 0;
 }
 
@@ -220,7 +216,6 @@ a {
 }
 
 .powerful p{
-  width: 70%;
   margin: 0 auto;
   padding: 20px 0;
 }
@@ -240,14 +235,6 @@ a {
   padding: 40px 0;
 }
 
-.features .one > .fl-left{
-  width: 30%;
-}
-
-.features .one > .fl-right{
-  width: 70%;
-}
-
 .features .one img, .features .col-33 img{
   height: 100px;
   margin: 0 auto;
@@ -262,20 +249,18 @@ a {
   text-align: left;
 }
 
-.features .one p, .community p, .grow .fl-left p{
-  padding-top: 20px;
-}
-
 .features .one h4{
   display: inline-block;
-  width: 30%;
   padding-top: 20px;
   text-transform: uppercase;
 }
 
+.features .one p, .community p, .grow .fl-left p{
+  padding-top: 20px;
+}
+
 .features .one hr{
   display: inline-block;
-  width: 50%;
   margin: 7px 0;
   border: 1px solid gray;
 }
@@ -285,17 +270,13 @@ a {
 }
 
 .features .one li{
-  display: inline;
+  display: inline-block;
   padding-right: 20px;
 }
 
 .features .one i, .features .col-33 i {
   padding-right: 10px;
   color: rgb(251, 119, 95);
-}
-
-.features .fill{
-  padding: 9px;
 }
 
 .features .col-33{
@@ -305,8 +286,8 @@ a {
   margin: 40px;
 }
 
-.features .col-33 .medio{
-  margin: 0 5%;
+.features .col-33 .fill{
+  padding: 9px;
 }
 
 .features .col-33 h3, .features .col-33 p{
@@ -360,6 +341,10 @@ a {
   line-height: 36px;
 }
 
+.community p, .grow .fl-left p{
+  padding-top: 20px;
+}
+
 .community .box h3 > span{
   font-size: 24px;
   vertical-align: top;
@@ -373,17 +358,23 @@ a {
   padding-top: 20px;
 }
 
+.customers .fl-right .row-uno .box{
+  padding-right: 45px;
+}
+
+.customers .fl-right .row-due .box{
+  padding: 0 38px;
+}
+
 .customers .row .box{
   text-align: center;
-  width: 150px;
   height: 40px;
   line-height: 40px;
 }
 
 .customers .container > .fl-left{
-  width: 40%;
+  width: 35%;
   padding: 0 100px;
-  text-align: center;
 }
 
 .customers .fl-left h2{
@@ -395,13 +386,12 @@ a {
   padding-top: 20px;
 }
 
-.customers .fl-right{
-  width: 60%;
+.customers .fl-right .row-uno .box img{
+  height: 18px;
 }
 
-.customers .fl-right img{
-  height: 15px;
-  padding: 0 20px;
+.customers .fl-right .row-due .box img{
+  height: 20px;
 }
 
 .grow{
@@ -409,7 +399,6 @@ a {
 }
 
 .grow .fl-left{
-  width: 40%;
   margin-top: 20px;
 }
 
@@ -426,12 +415,8 @@ a {
   font-size: 12px;
 }
 
-.grow .fl-right{
-  width: 50%;
-}
-
 .grow .fl-right .box{
-  margin-left: 200px;
+  text-align: end;
 }
 
 .grow .fl-right img{
@@ -502,17 +487,12 @@ a {
   color: rgb(203, 215, 226);
 }
 
-.credits .fl-left{
-  width: 50%;
-}
-
 .credits .fl-left img{
   display: block;
   height: 25px;
 }
 
 .credits .fl-right{
-  width: 50%;
   text-align: right;
 }
 
